@@ -28,13 +28,13 @@ window.addEventListener("wheel", (e) => {
 });
 
 newAcc.addEventListener("click", function () {
-  upper1.classList.remove("hidden");
-  lower.classList.add("lower1");
+  upper1.classList.toggle("hidden");
+  lower.classList.toggle("lower1");
 });
 
 signIn.addEventListener("click", function () {
-  upper2.classList.remove("hidden");
-  lower.classList.add("lower1");
+  upper2.classList.toggle("hidden");
+  lower.classList.toggle("lower1");
 });
 
 closebtn1.addEventListener("click", function () {
